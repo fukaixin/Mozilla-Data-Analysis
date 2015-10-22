@@ -1,4 +1,3 @@
-# fkx_mysql
 1.将数据导入数据库，表名为`2011_mozilla_activity_level2`,列名信息如图"2011_mozilla_activity_level1列名信息截图"
 2.调用time_submit.sql创建新表，属性列为时间Date，和统计时间作为的提交量Submit
 3.调用user_submit.sql把时间，和用户与提交量数据导入新表中
