@@ -29,3 +29,122 @@ REMIND----被描述的问题是一个bug,但是很可能不在产品的目前版
 DUPLICATE----提出的问题和当前已经存在的某个bug重复。
 
 WORKSFORME----不能重现这个bug,查看源代码也不知道为什么会出现这样的bug 现象,如果以后有更多的关于这个bug的线索,重新接受这个bug。
+
+Blocks----阻碍其他bug修复的bug。This bug must be resolved before the bugs listed in this field can be resolved.
+
+Cab Review----A custom Drop Down field in this installation of Bugzilla. 
+
+Bug Interest----A custom Date/Time field in this installation of Bugzilla. 
+
+Assignee----负责分配此bug修复工作的人，每当此栏更改，bug状态需重新变更为new，便于看出
+
+CC----一些没有直接参与bug修复，但是对其进度感兴趣的用户
+
+Changed----When this bug was last updated. 
+
+Classification----Bugs are categorised into Classifications, Products and Components. classifications is the top-level                           categorisation.
+colo-trip----A custom Drop Down field in this installation of Bugzilla.
+
+Comment 评论----Bugs have comments added to them by Bugzilla users. You can search for some text in those comments.
+
+Comment Tag----A custom Unknown Type field in this installation of Bugzilla. 
+
+Component ----组件，一个二级目录，每个组件属于一个特定的Product。 Select a Product to narrow down this list. 
+
+Content---- This is a field available in searches that does a Google-like 'full-text' search on the Summary and Comment fields. 
+Crash Signature----A custom Large Text Box field in this installation of Bugzilla. 
+
+Creation date----When the bug was filed. 
+
+Depends on ----描述此bug依赖于哪些bug，只有其依赖的bug先解决才能解决此bug。
+
+Due Date----A custom Date field in this installation of Bugzilla. 
+
+feature-b2g----A custom Extension field in this installation of Bugzilla.
+
+Hardware ----This is the hardware platform against which the bug was reported. Legal platforms include: 
+
+blocker----	Blocks development and/or testing work
+
+critical----	crashes, loss of data, severe memory leak 数据缺失，内存泄露
+
+major----	major loss of function
+
+normal----	regular issue, some loss of functionality under specific circumstances
+
+minor----	minor loss of function, or other problem where easy workaround is present
+
+trivial	----cosmetic problem like misspelled words or misaligned text
+
+enhancement----	Request for enhancement 增强
+
+Summary----The bug summary is a short sentence which succinctly describes what the bug is about. 一段简介的描述这个bug的情况
+
+Tags----A custom Unknown Type field in this installation of Bugzilla. 
+
+Target Milestone----The Target Milestone field is used to define when the engineer the bug is assigned to expects to fix it.                      描述希望何时分配给工程师bug去修复。
+
+URL----Bugs can have a URL associated with them - for example, a pointer to a web site where the problem is seen. 描述有些bug        存在一个指向它被发现的web链接
+
+User Story---A custom Large Text Box field in this installation of Bugzilla. 
+
+ux-b2g----A custom Extension field in this installation of Bugzilla. 
+
+Version----The version field defines the version of the software the bug was found in. 描述bug被发现的软件的版本
+
+Votes----Some bugs can be voted for, and you can limit your search to bugs with more than a certain number of votes. 
+
+Whiteboard----Each bug has a free-form single line text entry box for adding tags and status information. 为bug添加额外的标签和               状态信息
+
+Points---A custom Drop Down field in this installation of Bugzilla. 
+
+Priority 优先级----This field describes the importance and order in which a bug should be fixed compared to other bugs. This                     field is utilized by the programmers/engineers to prioritize their work to be done where P1 is considered                     the highest and P5 is the lowest. 
+
+Product ----Bugs are categorised into Products and Components. Select a Classification to narrow down this list. 
+
+QA Contact ----The person responsible for confirming this bug if it is unconfirmed, and for verifying the fix once the bug has                 been resolved. 负责证实此bug的人如果它的状态是为证实的，当它被解决的时候负责验证。
+
+QA Whiteboard----A custom Free Text field in this installation of Bugzilla. 
+
+Rank----A custom Integer field in this installation of Bugzilla. 
+
+relnote-b2g----A custom Extension field in this installation of Bugzilla. 
+
+relnote-firefox----A custom Extension field in this installation of Bugzilla. 
+
+Reporter ----The person who filed this bug.   bug的申请者
+
+Restrict Comments----A custom Unknown Type field in this installation of Bugzilla. 
+
+See Also----This allows you to refer to bugs in other installations. You can enter a URL to a bug in the 'Add Bug URLs' field             to note that that bug is related to this one. You can enter multiple URLs at once by separating them with a comma. 
+            You should normally use this field to refer to bugs in other installations. For bugs in this installation, it                is better to use the Depends on and Blocks fields.
+            
+Severity ----This field describes the impact of a bug描述bug影响的级别
+
+Has Regression Range----A custom Drop Down field in this installation of Bugzilla. 
+
+Has STR----A custom Drop Down field in this installation of Bugzilla. 
+
+Importance----The importance of a bug is described as the combination of its Priority and Severity. 
+
+Iteration----A custom Drop Down field in this installation of Bugzilla. 
+
+Keywords----You can add keywords from a defined list to bugs, in order to easily identify and group them.  描述bug的关键词，用             于定义和分类。
+
+Last Resolved----A custom Date/Time field in this installation of Bugzilla. 
+
+Last Visit----A custom Date/Time field in this installation of Bugzilla. 
+
+Locale----A custom Multiple-Selection Box field in this installation of Bugzilla. 
+
+Machine State----A custom Drop Down field in this installation of Bugzilla. 
+
+Mentor----A custom Unknown Type field in this installation of Bugzilla. 
+
+Mozilla Project----A custom Drop Down field in this installation of Bugzilla. 
+
+Office/Space----A custom Drop Down field in this installation of Bugzilla. 
+
+OS----This is the operating system against which the bug was reported. Legal operating systems include: 
+
+
